@@ -3,13 +3,13 @@ document.getElementById('diposit-text').addEventListener('focus', function () {
     document.body.style.backgroundColor = 'LightPink';
 })
 document.getElementById('diposit-text').addEventListener('blur', function () {
-    document.body.style.backgroundColor = 'white';
+    document.body.style.backgroundColor = 'rgba(193, 131, 235, 0.623)';
 })
 document.getElementById('withdraw-text').addEventListener('focus', function () {
     document.body.style.backgroundColor = 'Silver';
 })
 document.getElementById('withdraw-text').addEventListener('blur', function () {
-    document.body.style.backgroundColor = 'white';
+    document.body.style.backgroundColor = 'rgba(193, 131, 235, 0.623)';
 })
 // style End
 // matir bank
