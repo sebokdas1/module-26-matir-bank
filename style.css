@@ -1,0 +1,84 @@
+body{
+    width: 75%;
+    /* text-align: center; */
+    margin: auto;
+    text-align: center;
+}
+#bank-name{
+    
+    color: rgb(216, 95, 162);
+}
+#login-form{
+   margin: auto;
+    width: 50%;
+    background-color: rgba(127, 255, 212, 0.685);
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+#login-email{
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    padding: 4px;
+}
+#login-password{
+    border-radius: 6px;
+    padding: 4px;
+    border: 1px solid gray;
+}
+#login-button{
+    margin-top: 5px;
+    padding-left:  10px;
+    padding-right:  10px;
+}
+/* matir bank section */
+#bank-icon{
+    width: 50px;
+}
+#bank-balance{
+    grid-template-columns: 1fr, 1fr, 1fr;
+    display: flex;
+    justify-content: space-around
+    /* grid-gap: 60px; */
+    /* justify-content: center; */
+}
+#diposit-section{
+    background-color: blanchedalmond;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#withdraw-section{
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#balance-section{
+    background-color: rgba(235, 6, 132, 0.459);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#diposit-withdraw-input{
+    display: flex;
+    justify-content: space-between;
+    
+    /* gap: 40px; */
+    margin-top: 20px;
+}
+#diposit-input-section{
+    background-color: rgba(130, 211, 184, 0.644);
+    padding: 0 8px 8px 8px;
+}
+#withdraw-input-section{
+    background-color: rgba(255, 238, 0, 0.616);
+    padding: 0 8px 8px 8px;
+}
+#diposit-button{
+    margin-top: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#withdraw-button{
+    margin-top: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

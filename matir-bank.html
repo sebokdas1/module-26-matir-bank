@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>matir bank</title>
+</head>
+
+<body>
+    <h1 id="bank-heading">Wellcome To Matir Bank<img id="bank-icon" src="./piggy-bank.png" alt=""></h1>
+    <div id="bank-balance">
+        <div id="diposit-section">
+            <h2>diposit</h2>
+            <p>$<span id="total-diposit">00</span> </p>
+        </div>
+        <div id="withdraw-section">
+            <h2>withdraw</h2>
+            <p>$<span id="total-withdraw">00</span> </p>
+        </div>
+        <div id="balance-section">
+            <h2>balance</h2>
+            <p>$<span id="total-balance">100</span></p>
+        </div>
+    </div>
+    <div id="diposit-withdraw-input">
+        <div id="diposit-input-section">
+            <h2>Please Diposit your ammount</h2>
+            <input placeholder="$$" type="text" id="diposit-text">
+            <br>
+            <button id="diposit-button">diposit</button>
+        </div>
+        <div id="withdraw-input-section">
+            <h2>Please withdraw your ammount</h2>
+            <input placeholder="$$" type="text" id="withdraw-text">
+            <br>
+            <button id="withdraw-button">withdraw</button>
+        </div>
+    </div>
+    <script src="./js/banking.js"></script>
+</body>
+
+</html>
