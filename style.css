@@ -14,6 +14,7 @@ body{
     background-color: rgba(127, 255, 212, 0.685);
     padding-top: 8px;
     padding-bottom: 8px;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.342);
 }
 #login-email{
     border: 1px solid gray;
