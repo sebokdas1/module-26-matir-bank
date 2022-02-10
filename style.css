@@ -4,6 +4,12 @@ body{
     margin: auto;
     text-align: center;
 }
+#login-body{
+    background-color: rgba(128, 128, 128, 0.466);
+}
+#login-top-heading{
+    margin-top: 20px;
+}
 #bank-name{
     
     color: rgb(216, 95, 162);
@@ -33,6 +39,12 @@ body{
     padding-right:  10px;
 }
 /* matir bank section */
+#bank-body{
+    background-color: rgba(193, 131, 235, 0.623);
+}
+#bank-heading{
+    margin-top: 20px;
+}
 #bank-icon{
     width: 50px;
 }
